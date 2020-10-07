@@ -1,0 +1,73 @@
+.navbar {
+
+    background-color: black !important;
+}
+
+
+
+.design{
+    box-shadow: 2px 4px 5px rgb(0, 0, 0) !important;
+    margin: 0 auto !important;
+}
+
+#todo-item{
+    border-top: 0px !important;
+    border-bottom: 2px solid white !important;
+    border-left: 0px !important;
+    border-right: 0px !important;
+    background-color: black !important;
+    color: white !important;
+}
+
+button{
+    border-radius: 5px !important;
+    background-color: black !important;
+    border-top: 0px !important;
+    border-bottom: 2px solid white !important;
+    border-left: 0px !important;
+    border-right: 0px !important;
+    margin: 0px 5px !important;
+    color: white;
+
+
+    
+}
+ol{
+    margin-top: 20px !important;
+}
+li{
+    
+    list-style-position: outside;
+    color: white;
+}
+
+@media (min-width: 576px) { 
+    .design {
+        width:  100%;
+    }
+
+ }
+
+
+@media (min-width: 768px) { 
+    .design {
+        width:  70%;
+    }
+
+ }
+
+
+@media (min-width: 992px) { 
+    .design {
+        width:  50%;
+    }
+
+ }
+
+
+@media (min-width: 1200px) { 
+    .design {
+        width:  50%;
+    }
+
+ }
